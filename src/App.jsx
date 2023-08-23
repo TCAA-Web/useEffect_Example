@@ -1,5 +1,6 @@
 import "./App.css";
 import { ShowUsers } from "./components/ShowUsers/ShowUsers";
+import { Timer } from "./components/Timer/Timer";
 import { Validation } from "./components/Validation/Validation";
 
 function App() {
@@ -11,7 +12,8 @@ function App() {
   return (
     <>
      {/*  <ShowUsers/> */}
-      <Validation/>
+      {/* <Validation/> */}
+      <Timer/>
     </>
   );
 }
